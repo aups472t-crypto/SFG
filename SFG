@@ -1,0 +1,7 @@
+local pg = game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui")
+local sg = Instance.new("ScreenGui", pg)
+sg.Name = "TestGui"
+local btn = Instance.new("TextButton", sg)
+btn.Size = UDim2.new(0, 180, 0, 50)
+btn.Position = UDim2.new(0.3, 0, 0.3, 0)
+btn.Text = "รันติดแล้ว!"
